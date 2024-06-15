@@ -1,0 +1,16 @@
+{
+  "name": "docs",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "^2.0.0-rc.13",
+    "@vuepress/theme-default": "^2.0.0-rc.35",
+    "typescript": "^5.3.3",
+    "vitepress": "^1.2.3"
+  }
+}
